@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/second_frag_name"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:text="name"/>
+
+
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="30dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        android:id="@+id/second_frag_image"
+        />
+
+    <ProgressBar
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="30dp"
+        android:padding="40dp"
+        android:visibility="gone"
+        android:id="@+id/second_frag_progres"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/second_frag_status"
+        android:textSize="21sp"
+        android:text="status"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/second_frag_specie"
+        android:textSize="21sp"
+        android:text="specie"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/second_frag_gen"
+        android:textSize="21sp"
+        android:text="gen"/>
+
+
+</LinearLayout>
