@@ -9,9 +9,7 @@ public class RetrofitInstance {
     private static Retrofit retrofit;
     private static final String BASE_URL = "https://rickandmortyapi.com/";
 
-    /**
-     * Create an instance of Retrofit object
-     * */
+
     public static Retrofit getRetrofitInstance() {
         if (retrofit == null) {
             retrofit = new retrofit2.Retrofit.Builder()
